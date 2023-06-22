@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.container-row{
+
+}
+.input{
+    background-color: ;
+    padding: 5px;
+
+}
+.btn{
+    background-color: ;
+    padding: 5px;
+    min-width: 30px;
+}
+.btn-ac{
+    min-width: 60px !important;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        background-color: black;
+    }
+    
+}

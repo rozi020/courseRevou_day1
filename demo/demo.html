@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>revou demo</title>
+    </head>
+    <style>
+        h1{color: orange;}
+        h1.title{color: pink;}
+        p{color: red;}
+        .mobil{color: blue;}
+        #mobilhijau{color: cadetblue;}
+        .divWithBoxSizing{
+            background-color: chartreuse;
+            border: 10px solid red;
+            width: 200px;
+            padding-left: 100px;
+            box-sizing: border-box; /* usefull things */
+        }
+        .divWithoutBoxSizing{
+            background-color: aqua;
+            border: 10px solid yellowgreen;
+            width: 200px;
+            padding-left: 50px;
+            box-sizing: border-box; /* usefull things */
+        }
+        .flexbox{
+            display: flex;
+            background-color: antiquewhite;
+            flex-direction: row-reverse; /* usefull things */
+        }
+
+    </style>
+    <body>
+        <div class="flexbox">
+        <h1>avanza</h1>
+        <p>bmw</p>
+        <h1>ayla</h1>
+        <p>innova</p>
+        <h1>lambo</h1>
+        <p>ferari</p>
+        
+        </div>
+        
+        <div class="divWithBoxSizing">
+            <h1 class="mobil" id="fortuner">fortuner</h1>
+        </div>
+        <div class="divWithoutBoxSizing">
+            <h1 class="mobil" id="mobilhijau">toyota</h1>
+        </div>
+    </body>
+</html>
